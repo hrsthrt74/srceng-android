@@ -2,9 +2,9 @@ name: Build android package
 
 on:
   push:
-    branches: [ con-wrappers ]
+    branches: [ android-fixes ]
   pull_request:
-    branches: [ con-wrappers ]
+    branches: [ android-fixes ]
 
 jobs:
   build:
